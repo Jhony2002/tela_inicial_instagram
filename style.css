@@ -25,27 +25,29 @@ body {
     height: 100vh;
 }
 
-.instagram-phone {
+.instagram-telefone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.instagram-telefone img {
     height: 50rem;
 }
 
-.instagram-continue {
+.instagram-c {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center;
+    /* horizontal */
+    justify-content: space-around;
+    /* vertical */
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
 }
 
-.group {
+.grupo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +58,7 @@ body {
     border: 1px solid lightgray;
 }
 
-.group:nth-child(1) {
+.grupo:nth-child(1) {
     min-height: 19rem;
 }
 
@@ -96,7 +98,7 @@ body {
     color: #0095f6;
 }
 
-.get-the-app {
+.pegar-app {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,15 +147,15 @@ body {
         width: 90%;
     }
 
-    .instagram-phone {
+    .instagram-telefone {
         display: none;
     }
 
-    .instagram-continue {
+    .instagram-c {
         width: 100%;
     }
-    
-    .group {
+
+    .grupo {
         border: 1px solid transparent;
     }
 }
